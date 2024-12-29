@@ -1,1 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(14, 141, 238, 0.919);
+}
 
+.header-container {
+    width: 100%;
+    height: 150px;
+    font-size: 2em;
+    color: rgb(3, 3, 3);
+    display: flex;
+    border: 4px black solid;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-color: rgba(14, 141, 238, 0.919);
+}
+
+nav li {
+    display: inline;
+    float: right;
+    padding: 20px;
+    margin: 8px;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+}
+img.logo {
+    width: 120px;
+    height: 120px;
+    margin-right: 1200px;
+}
